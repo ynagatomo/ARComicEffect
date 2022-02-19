@@ -9,7 +9,7 @@ A minimal iOS AR app with the Comic Postprocess Effect.
 - SwiftUI, ARKit, RealityKit 2, Core Image
 
 In iOS 15.0+, you can apply postprocess effects to a RealityKit scene after RealityKit renders it.
-This app applies the CIComicEffect filter of Core Image to the AR scene rendered by RealityKit.
+This app applies the CIComicEffect or CISpotColor filter of Core Image to the AR scene rendered by RealityKit.
 
 This is a minimal implementation. Replace the Core Image Filter with your favorite one
 ,and replace the USDZ file in the project with your favorite 3d model data.
